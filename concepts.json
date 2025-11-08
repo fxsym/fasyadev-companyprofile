@@ -1,0 +1,20 @@
+{
+    "navmenu": {
+        "kiri": "Logo",
+        "tengah": ["Home", "Portofolio", "Contact"],
+        "kanan": ["Bahasa", "Switch Tema"]
+    },
+    "home": {
+        "section-1": "Hero dengan 2 kolom, kiri untuk deskripsi dan tagline singkat, kanan untuk ilustrasi grafis website",
+        "section-2": "Buat website yang anda inginkan dengan teknologi yang kami kuasai (dibawahnya ada stack tech)",
+        "section-3": "Portofolio kami"
+    },
+    "Portofolio": {
+        "section-1": "langsung nampilin portfolio yang pernah dibuat bentuk card, dan ada halaman visit site"
+    },
+    "Contact": {
+        "section-1": "Card untuk menuju langsung ke wa atau email",
+        "section-2": "Card untuk menuju langsung ke sosial media",
+        "section-3": "Form"
+    }
+}
