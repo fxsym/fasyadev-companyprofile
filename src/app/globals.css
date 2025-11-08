@@ -26,6 +26,7 @@ html.dark {
 }
 
 body {
+  transition: all;
   background: var(--color-bg);
   color: var(--color-text);
   font-family: Arial, Helvetica, sans-serif;

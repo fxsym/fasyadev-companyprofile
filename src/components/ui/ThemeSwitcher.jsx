@@ -18,7 +18,7 @@ export default function ThemeSwitcher() {
   return (
     <motion.button
       onClick={() => setTheme(isDark ? "light" : "dark")}
-      className="relative flex items-center justify-center w-12 h-12 rounded-full bg-gray-200 dark:bg-gray-700 hover:scale-105 transition-transform"
+      className="relative flex items-center justify-center w-12 h-12 rounded-full bg-primary hover:scale-105 transition-transform"
       whileTap={{ scale: 0.9 }}
     >
       <AnimatePresence mode="wait" initial={false}>
@@ -30,7 +30,7 @@ export default function ThemeSwitcher() {
             exit={{ rotate: 90, opacity: 0, scale: 0.5 }}
             transition={{ duration: 0.4, ease: "easeInOut" }}
           >
-            <Moon size={22} className="text-yellow-300" />
+            <Moon size={22} className="text-white" />
           </motion.div>
         ) : (
           <motion.div
@@ -40,7 +40,7 @@ export default function ThemeSwitcher() {
             exit={{ rotate: -90, opacity: 0, scale: 0.5 }}
             transition={{ duration: 0.4, ease: "easeInOut" }}
           >
-            <Sun size={24} className="text-yellow-500" />
+            <Sun size={24} className="text-white" />
           </motion.div>
         )}
       </AnimatePresence>

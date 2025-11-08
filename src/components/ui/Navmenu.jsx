@@ -11,8 +11,8 @@ export default function Navmenu({ label, active }) {
         >
             <motion.span
                 variants={{
-                    rest: { color: active ? "var(--text-secondary)" : "var(--text)" }, // ✅ warna teks aktif
-                    hover: { color: "var(--text-secondary)" }
+                    rest: { color: active ? "var(--color-primary)" : "var(--text)" }, // ✅ warna teks aktif
+                    hover: { color: "var(--color-primary)" }
                 }}
                 transition={{ duration: 0.25, ease: "easeInOut" }}
                 className="z-10 relative"
