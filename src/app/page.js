@@ -3,12 +3,14 @@ import Navbar from "@/components/layouts/Navbar";
 import Hero from "@/components/sections/home/Hero";
 import TechStack from "@/components/sections/home/TechStack";
 import PortfolioPreview from "@/components/sections/home/PortfolioPreview";
+import AboutSection from "@/components/sections/home/AboutUs";
 
 export default function Home() {
   return (
     <div>
       <Navbar />
       <Hero />
+      <AboutSection />
       <TechStack />
       <PortfolioPreview />
     </div>
