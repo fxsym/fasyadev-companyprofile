@@ -8,12 +8,12 @@ export default function PortfolioPreview() {
 
     const projects = [
         {
-            title: "E-Commerce Platform",
-            category: "Web Application",
-            image: "/images/projects/ecommerce-preview.jpg", // Ganti dengan screenshot website atau OpenGraph image
-            url: "https://example-ecommerce.com",
-            description: "Platform e-commerce modern dengan fitur lengkap",
-            tags: ["Next.js", "Stripe", "Tailwind"],
+            title: "Portfolio Website Agus Photography",
+            category: "Portfolio Website",
+            image: "/images/aguswebsite.png", // Ganti dengan screenshot website atau OpenGraph image
+            url: "https://fxsym.github.io/agusphotography/",
+            description: "Website untuk vendor fotografi dengan tujuan untuk memperlihatkan hasil hasil foto jepretan pemilik vendor",
+            tags: ["ReactJS", "Tailwind"],
             gradient: "from-purple-500 to-pink-500"
         },
         {
@@ -26,12 +26,12 @@ export default function PortfolioPreview() {
             gradient: "from-blue-500 to-cyan-500"
         },
         {
-            title: "Food Delivery App",
-            category: "Mobile Web App",
-            image: "/images/projects/food-delivery-preview.jpg", // Ganti dengan screenshot website
-            url: "https://example-fooddelivery.com",
-            description: "Aplikasi delivery dengan real-time tracking",
-            tags: ["React Native", "Firebase", "Maps"],
+            title: "Logistik Kelautan Universitas Pendidikan Indonesia",
+            category: "Website Pusat Informasi",
+            image: "/images/logkelwebiste.png", // Ganti dengan screenshot website
+            url: "https://logkel-kdserang.upi.edu/",
+            description: "Website pusat sistem informasi logistik kelautan Universitas Pendidikan Indonesia",
+            tags: ["React", "Tailwind"],
             gradient: "from-orange-500 to-red-500"
         }
     ]
@@ -108,7 +108,7 @@ export default function PortfolioPreview() {
                                     </p>
                                 </div>
 
-                                {/* Tags */}
+                                {/* Tags
                                 <div className="flex flex-wrap gap-2">
                                     {project.tags.map((tag, i) => (
                                         <span
@@ -118,7 +118,7 @@ export default function PortfolioPreview() {
                                             {tag}
                                         </span>
                                     ))}
-                                </div>
+                                </div> */}
 
                                 {/* Direct Link */}
                                 <a
